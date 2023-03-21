@@ -14,15 +14,13 @@
     "name": {
       "type": "string",
       "default": "project name",
-      "required": true,
-      "private": true
+      "required": true
     },
     "image": {
       "allowedTypes": ["images"],
       "type": "media",
       "multiple": false,
-      "required": true,
-      "private": true
+      "required": true
     }
   }
 }
