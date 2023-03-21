@@ -19,28 +19,31 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"],
+      "private": true
     },
     "email": {
       "type": "email",
       "default": "example@gmail.com",
-      "required": true
+      "required": true,
+      "private": true
     },
     "phone": {
       "type": "biginteger",
       "required": true,
-      "default": "01"
+      "default": "01",
+      "private": true
     },
     "age": {
       "type": "integer",
       "default": 30,
-      "required": true
+      "required": true,
+      "private": true
     },
     "jobTitle": {
       "type": "json",
-      "required": true
+      "required": true,
+      "private": true
     }
   }
 }
